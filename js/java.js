@@ -14,9 +14,10 @@
         modal.querySelector(".modal-wonderimg").src = "images/" + oneObject.gsx$image.$t;
         modal.querySelector(".modal-size").textContent = "Size: " + oneObject.gsx$size.$t;
 	    modal.querySelector(".modal-year").textContent = "Year: " + oneObject.gsx$yearbuild.$t;
-	    modal.querySelector(".modal-price").textContent = oneObject.gsx$expenses.$t;
 	    modal.querySelector(".modal-funfact").textContent = "Fun Fact: " + oneObject.gsx$funfacts.$t;
         modal.querySelector(".modal-state").src = "images/" + oneObject.gsx$state.$t;
+        modal.querySelector(".modal-camera").src = "images/" + oneObject.gsx$experience.$t;
+         modal.querySelector(".modal-money").src = "images/" + oneObject.gsx$expenses.$t;
          modal.querySelector(".modal-flag").src = "images/flag/" + oneObject.gsx$location.$t;
         modal.classList.remove("hide");
     }

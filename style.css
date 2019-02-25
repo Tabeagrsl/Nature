@@ -34,12 +34,13 @@ main {
 }
 
 article {
-    padding: 2px;
-    position: relative;
     padding: 1em;
+    position: relative;
     border: 1px solid #5B7553;
     border-radius: 10px;
 }
+
+
 
 h2 {
     font-size: 20px;
@@ -118,17 +119,6 @@ h1{
 
 }
 
-.modal-price {
-    padding: 5px;
-    font-size: 20px;
-    width: 25px;
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-}
-
-
-
 .modal-category {
     padding: 5px;
     width: 40px;
@@ -138,14 +128,6 @@ h1{
     right: 20px;
 }
 
-.modal-state{
-     width: 20px;
-    height: 20px;
-    position: absolute;
-   bottom: 20px;
-    left: 80px;
-}
-
 .modal-flag{
     width: 40px;
     position: absolute;
@@ -153,11 +135,32 @@ h1{
     top: 400px;
 }
 
+.modal-state{
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.modal-camera{
+    width: 120px;
+    position: absolute;
+    left: 150px;
+    bottom: -60px;
+}
+
+.modal-money{
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    bottom: -60px;
+}
+
+
 .desc{
     position: absolute;
     top: 450px;
 
-}
 }
 
 .wonderimg {
@@ -173,6 +176,18 @@ h1{
 
 }
 
+
+.profile{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-name{
+
+}
 
 @media all and (min-width: 400px) {
     .wonderimg {
